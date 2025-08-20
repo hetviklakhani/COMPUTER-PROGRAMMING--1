@@ -1,0 +1,11 @@
+#include <stdio.h>
+
+int main()
+{
+float a,b;
+printf("Enter the hours");
+scanf("%f",&a);
+b=a*60;
+printf("%f hours in minutes are %f",a,b);
+return 0;
+}
