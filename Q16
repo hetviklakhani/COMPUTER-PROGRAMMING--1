@@ -1,0 +1,14 @@
+#include <stdio.h>
+int main()
+{
+float a,b,c,d;
+printf("Enter the Principle amount\n");
+scanf("%f",&a);
+printf("Enter the rate of interest\n");
+scanf("%f",&b);
+printf("Enter the time in years\n");
+scanf("%f",&c);
+d=abc/100;
+printf("Total interest is %f",d);
+return 0;
+}
