@@ -1,0 +1,11 @@
+#include <stdio.h>
+int main()
+{
+float a,b,c;
+printf("Enter the Length of the sqaure's side\n");
+scanf("%f",&a);
+b=aa;
+c=4a;
+printf("Perimeter of the sqaure is %f and Area is %f",c,b);
+return 0;
+}
