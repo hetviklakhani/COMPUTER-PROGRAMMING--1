@@ -1,0 +1,14 @@
+#include <stdio.h>
+int main()
+{
+float a,b,c,d;
+printf("Enter the marks for MATHS");
+scanf("%f",&a);
+printf("Enter the marks for PHYSICS");
+scanf("%f",&b);
+printf("Enter the marks for CHEMISTRY");
+scanf("%f",&c);
+d=(a+b+c)/3;
+printf("Avg marks of all the 3 subjects is %f",d);
+return 0;
+}
