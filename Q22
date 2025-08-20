@@ -1,0 +1,11 @@
+#include <stdio.h>
+int main()
+{
+float a,b,c;
+printf("Enter your Gross sales\n");
+scanf("%f",&a);
+b=10*a/100;
+c=a-b;
+printf("Your Net Sales are %f",c);
+return 0;
+}
