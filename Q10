@@ -1,0 +1,11 @@
+#include <stdio.h>
+int main()
+{
+float a,b,c;
+printf("Enter the amount in dollar");
+scanf("%f",&a);
+b=a*48;
+c=b/70;
+printf("%f dollar in pound %f",a,c);
+return 0;
+}
