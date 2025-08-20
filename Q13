@@ -1,0 +1,14 @@
+#include <stdio.h>
+int main()
+{
+float a,b,c,d;
+printf("Enter the value in bytes\n");
+scanf("%f",&a);
+b=a/1000;
+c=a/1000000;
+d=a/1000000000;
+printf("%f bytes in Kb are %f\n",a,b);
+printf("%f bytes in Mb are %f\n",a,c);
+printf("%f bytes in Gb are %f\n",a,d);
+return 0;
+}
