@@ -1,0 +1,10 @@
+#include <stdio.h>
+int main()
+{
+float a,b;
+printf("Enter the temperature in Celcius");
+scanf("%f",&a);
+b=(9/5*a)+32;
+printf("%f in celcius is %f in fahrenheit",a,b);
+return 0;
+}
