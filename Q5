@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main()
+{
+   float a,b,c,d,e,f;
+    printf("Enter the 2 no.");
+    scanf("%f%f",&a,&b);
+    c=a/b;
+    d=a+b;
+    e=a-b;
+    f=a*b;
+    printf("The additon of %f and %f is %f",a,b,d);
+    printf("The subtraction of %f and %f is %f", a,b,e);
+    printf("The multiplication of %f and %f is %f",a,b,f);
+    printf("The division of %f and %f is %f",a,b,c);
+    return 0;
+}
